@@ -49,7 +49,9 @@ class Tuple {
         var value = this.data[i][1];
         try {
           result.addAll({key: value});
-        } catch (e) {}
+        } catch (e) {
+          throw e;
+        }
       }
     }
     return result;
@@ -60,7 +62,7 @@ class Tuple {
   List<dynamic> dimN(int dimension) {
     List<dynamic> result = [];
     List<dynamic> initialTuple = this.data[0];
-    if (this.data.length < 1) {
+    if (this.data.isEmpty() == true) {
       throw 'Cannot call the nth dimension\nas the tuple has no contents.';
     } else {
       int actualDimension = dimension - 1;
