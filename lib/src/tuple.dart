@@ -62,7 +62,7 @@ class Tuple {
   List<dynamic> dimN(int dimension) {
     List<dynamic> result = [];
     List<dynamic> initialTuple = this.data[0];
-    if (this.data.isEmpty() == true) {
+    if (this.data.isEmpty == true) {
       throw 'Cannot call the nth dimension\nas the tuple has no contents.';
     } else {
       int actualDimension = dimension - 1;
