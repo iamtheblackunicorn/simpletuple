@@ -11,3 +11,9 @@
 
 - minor optimizations
 - fixes according to pedantic
+
+## Version 1.2.0-nullsafety.0: Initial Release Pt. III
+
+- minor optimizations
+- fixes according to pedantic
+- fixed error-throwing exception

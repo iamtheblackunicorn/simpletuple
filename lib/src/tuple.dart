@@ -50,7 +50,7 @@ class Tuple {
         try {
           result.addAll({key: value});
         } catch (e) {
-          throw e;
+          print('Map could not be built.');
         }
       }
     }
