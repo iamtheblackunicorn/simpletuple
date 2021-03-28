@@ -2,24 +2,22 @@
 // a.k.a. "The Black Unicorn".
 // licensed under the MIT license.
 
-
 /// A class to represent two-dimensional
 /// or n-dimensional tuples.
-class Tuple{
-
+class Tuple {
   /// This field holds the actual data of
   /// the tuple.
   List<dynamic> data = [];
 
   /// This method adds data to the tuple
   /// and populates the [data] field.
-  void add(List<dynamic> yourData){
+  void add(List<dynamic> yourData) {
     this.data.add(yourData);
   }
 
   /// This method returns a dynamic list of
   /// the tuple's first dimension.
-  List<dynamic> dimOne(){
+  List<dynamic> dimOne() {
     List<dynamic> keys = [];
     for (int i = 0; i < this.data.length; i++) {
       keys.add(this.data[i][0]);
@@ -29,7 +27,7 @@ class Tuple{
 
   /// This method returns a dynamic list of
   /// the tuple's second dimension.
-  List<dynamic> dimTwo(){
+  List<dynamic> dimTwo() {
     List<dynamic> values = [];
     for (int i = 0; i < this.data.length; i++) {
       values.add(this.data[i][1]);
@@ -40,19 +38,18 @@ class Tuple{
   /// This method tries to convert
   /// a two-dimnensional tuple into
   /// a [{key:value}] pair.
-  Map<dynamic, dynamic> toMap(){
+  Map<dynamic, dynamic> toMap() {
     Map<dynamic, dynamic> result = {};
     List<dynamic> initialTuple = this.data[0];
     if (initialTuple.length != 2) {
       throw 'Tuple items do not have the required length!';
-    }
-    else {
+    } else {
       for (int i = 0; i < this.data.length; i++) {
         var key = this.data[i][0];
         var value = this.data[i][1];
         try {
-          result.addAll({key:value});
-        } catch(e) {}
+          result.addAll({key: value});
+        } catch (e) {}
       }
     }
     return result;
@@ -60,7 +57,7 @@ class Tuple{
 
   /// This method returns the nth dimension of
   /// a tuple.
-  List<dynamic> dimN(int dimension){
+  List<dynamic> dimN(int dimension) {
     List<dynamic> result = [];
     List<dynamic> initialTuple = this.data[0];
     if (this.data.length < 1) {
