@@ -1,4 +1,4 @@
-# Changelog
+# CHANGELOG
 
 ## Version 1.0.0-nullsafety.0: Initial Release
 
