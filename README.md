@@ -1,5 +1,7 @@
 # SIMPLE TUPLE :abacus:
 
+[![Build Status](https://travis-ci.com/iamtheblackunicorn/simpletuple.svg?branch=main)](https://travis-ci.com/iamtheblackunicorn/simpletuple)
+
 *Handle tuples of N dimensions!* :abacus:
 
 ## About :books:
