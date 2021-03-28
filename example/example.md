@@ -1,4 +1,4 @@
-# EXAMPLE FOR SIMPLETUPLE
+# EXAMPLE FOR SIMPLE TUPLE
 
 ## The example's `pubspec.yaml`
 
