@@ -2,7 +2,7 @@
 // a.k.a. "The Black Unicorn".
 // licensed under the MIT license.
 
-import 'package:simpletuple/ssimpletuple.dart';
+import 'package:simpletuple/simpletuple.dart';
 
 void main(){
 
