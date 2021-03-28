@@ -29,7 +29,7 @@ depdencies:
 ```YAML
 depdencies:
   ...
-  simpletuple: ^1.0.0-nullsafety.0
+  simpletuple: ^1.1.0-nullsafety.0
 ```
 
 The three dots represent anything else that you might have in the `dependencies` section. Having done that, re-fetch your project's dependencies by running this in the project's root directory:
