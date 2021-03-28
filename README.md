@@ -6,7 +6,7 @@
 
 ## About :books:
 
-If you know maths and Python, you know that in both there exists a "data type" called a tuple.
+If you know Maths and Python, you know that in both there exists a "data type" called a tuple.
 I wanted to write a library that handles tuples of dimension `n`. This is that library.
 
 ## Installation :inbox_tray:
@@ -54,7 +54,7 @@ import 'package:simpletuple/simpletuple.dart';
 A class to represent two-dimensional or n-dimensional tuples.
 
 #### void add(List<dynamic> yourData)
-This method adds data to the tuple and populates the [data] field.
+This method adds data to the tuple and populates the `data` field.
 
 #### List<dynamic> dimOne()
 This method returns a dynamic list of the tuple's first dimension.
