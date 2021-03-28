@@ -20,6 +20,7 @@ void main(){
   print(myOtherTuple.dimOne());
   print(myOtherTuple.dimTwo());
   print(myOtherTuple.data);
+  print(myOtherTuple.toMap());
   print(myOtherTuple.dimN(3));
 
 }

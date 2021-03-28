@@ -42,12 +42,18 @@ class Tuple{
   /// a [{key:value}] pair.
   Map<dynamic, dynamic> toMap(){
     Map<dynamic, dynamic> result = {};
-    for (int i = 0; i < this.data.length; i++) {
-      var key = this.data[i][0];
-      var value = this.data[i][1];
-      try {
-        result.addAll({key:value});
-      } catch(e) {}
+    List<dynamic> initialTuple = this.data[0];
+    if (initialTuple.length != 2) {
+      throw 'Tuple items do not have the required length!';
+    }
+    else {
+      for (int i = 0; i < this.data.length; i++) {
+        var key = this.data[i][0];
+        var value = this.data[i][1];
+        try {
+          result.addAll({key:value});
+        } catch(e) {}
+      }
     }
     return result;
   }
