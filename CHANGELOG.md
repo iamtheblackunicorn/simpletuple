@@ -17,3 +17,8 @@
 - minor optimizations
 - fixes according to pedantic
 - fixed error-throwing exception
+
+## Version 1.3.0-nullsafety.0: Elegance update
+
+- minor fixes
+- updated documentation
