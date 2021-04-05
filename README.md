@@ -48,26 +48,6 @@ Import the API like this:
 import 'package:simpletuple/simpletuple.dart';
 ```
 
-### API
-
-#### class Tuple
-A class to represent two-dimensional or n-dimensional tuples.
-
-#### void add(List<dynamic> yourData)
-This method adds data to the tuple and populates the `data` field.
-
-#### List<dynamic> dimOne()
-This method returns a dynamic list of the tuple's first dimension.
-
-#### List<dynamic> dimTwo()
-This method returns a dynamic list of the tuple's second dimension.
-
-#### Map<dynamic, dynamic> toMap()
-This method tries to convert a two-dimnensional tuple into a `{key:value}` pair.
-
-#### List<dynamic> dimN(int dimension)
-This method returns the nth dimension of a tuple.
-
 ## Note :scroll:
 
 - *Simple  Tuple* :abacus: by *Alexander Abraham :black_heart:* a.k.a. *"The Black Unicorn" :unicorn:*
