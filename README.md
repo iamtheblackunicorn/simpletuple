@@ -6,7 +6,7 @@
 
 ## About :books:
 
-If you know Maths and Python, you know that in both there exists a "data type" called a tuple.
+If you know maths and Python, you know that in both there exists a "data type" called a tuple.
 I wanted to write a library that handles tuples of dimension `n`. This is that library.
 
 ## Installation :inbox_tray:
@@ -50,5 +50,5 @@ import 'package:simpletuple/simpletuple.dart';
 
 ## Note :scroll:
 
-- *Simple  Tuple* :abacus: by *Alexander Abraham :black_heart:* a.k.a. *"The Black Unicorn" :unicorn:*
-- licensed under the MIT license
+- *Simple Tuple :abacus:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
+- Licensed under the MIT license.
