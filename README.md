@@ -1,6 +1,6 @@
 # SIMPLE TUPLE :abacus:
 
-[![Build Status](https://travis-ci.com/iamtheblackunicorn/simpletuple.svg?branch=main)](https://travis-ci.com/iamtheblackunicorn/simpletuple)
+[![GitHub CI](https://github.com/iamtheblackunicorn/simpletuple/actions/workflows/dart.yml/badge.svg)](https://github.com/iamtheblackunicorn/simpletuple/actions)
 
 *Handle tuples of N dimensions!* :abacus:
 
